@@ -8,6 +8,6 @@ namespace VideoJatekSim
 {
     internal class Palya
     {
-
+        //TODO...
     }
 }

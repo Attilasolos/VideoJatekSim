@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace VideoJatekSim
 {
-    internal class Pancelzat
+    internal class Targyak
     {
         public string Nev {  get; set; }
-        public int Vedelem {  get; set; }
-        public int Epseg { get; set; }
-        public string Leiras {  get; set; }
+       public int Tapertek {  get; set; }
+        public int Gyogyitas { get; set; }
+
+
     }
 }

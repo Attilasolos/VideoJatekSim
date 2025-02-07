@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Jatekos Herny = new Jatekos();
+            Ellenseg Makvratr = new Ellenseg();
         }
     }
 }
