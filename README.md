@@ -1,6 +1,6 @@
 # Középkori lovag videojáték (Biztos nem kcd2) szimulátor
 ## -Classok:
-  ### -Ellenség(Különböző nhézségben, az eyszerű parasztoktól a főellenségig,van életereje, támadása, és  pozíciója)
+  ### -Ellenség(Különböző nehézségben, az eyszerű parasztoktól a főellenségig,van életereje, támadása, és  pozíciója)
   ### -Játékos(Vele kell játszani, van életereje, éhsége, fáradtsága, és pozíciója)
   ### -Pálya(Vannak elérhető részek, vannak falvak, városok,várak)
   ### -Fegyverek(Van sebzése, és épsége)
