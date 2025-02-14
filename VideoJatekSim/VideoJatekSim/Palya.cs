@@ -8,6 +8,14 @@ namespace VideoJatekSim
 {
     internal class Palya
     {
-        //TODO...
+       public List<Targyak> falusi_piac { get; set; }
+
+        public List<Targyak> varosi_piac { get; set; }
+
+        public Palya()
+        {
+            falusi_piac = new List<Targyak>() { };
+            varosi_piac = new List<Targyak>() { };
+        }
     }
 }
