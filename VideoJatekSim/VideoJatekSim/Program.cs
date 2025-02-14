@@ -16,7 +16,7 @@ namespace VideoJatekSim
             int markvratr_poz = 713;
 
             int linewidth = 60;
-            int[] map = 
+            int[] terkep = 
             {
                 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
                 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -85,12 +85,12 @@ namespace VideoJatekSim
 
             };
             
-            bool won = false;
-            while (won == false) {
-                Herny.PozSzam = map[Herny.Poz];
+            bool nyert = false;
+            while (nyert == false) {
+                Herny.PozSzam = terkep[Herny.Poz];
                 int index = 0;
                 
-                foreach (int i in map) { 
+                foreach (int i in terkep) { 
                     if(Herny.Poz == index)
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -170,7 +170,7 @@ namespace VideoJatekSim
                         }
                         break;
                     case "s":
-                        if (Herny.Poz +  60 < map.Length)
+                        if (Herny.Poz +  60 < terkep.Length)
                         {
                             Herny.Poz += 60;
                         }
