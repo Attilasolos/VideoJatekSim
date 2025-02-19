@@ -11,7 +11,6 @@ namespace VideoJatekSim
             int markvratr_poz = 713;
             Iras iro = new Iras();
             Palya Telepules = new Palya();
-            int lepes_szam = 0;
             int linewidth = 60;
             Console.Write("Ez a projekt egy egyszerű open world játékot szimulál ahol a kék a vizet jelzi, a zöld a mezőt \na vörös a falukat a szürke a várost és a sötétszürke a várat\n\nÉrted a játék írányítását");
             Console.ReadKey();
@@ -58,12 +57,13 @@ namespace VideoJatekSim
                 {
                     Console.WriteLine(ex.Message);
                 }
-                Console.Clear();
+               
 
                 if (Herny.Poz == markvratr_poz)
                     Herny.Vegso_csata();
                 Herny.LepesSzam++;
-                
+                Console.Clear();
+
             }
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();

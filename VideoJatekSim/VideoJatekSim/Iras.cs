@@ -217,13 +217,16 @@ namespace VideoJatekSim
                     if ((jatekos.Poz) % 60 != 0)
                     {
                         jatekos.Poz -= 1;
+                        
                     }
                     else
                     {
                         break;
                     }
                     break;
-            }
+                default:
+                    throw new Exception("\nNem megy az irányok közüli kiválasztás? \n");
+            }   
         }
         public string Megerkezes(ConsoleKey info, Jatekos jatekos, Palya Nemterkep)
         {
