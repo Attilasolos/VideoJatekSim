@@ -44,7 +44,7 @@ namespace VideoJatekSim
                 new Targyak("Alma", 2, 0, 0, 0, 3),
                 new Targyak("Kenyér", 4, 0, 0, 0, 8),
                 new Targyak("Egyszerű vadászkard", 0, 0, 110, 0, 150),
-                new Targyak("Egyszerű láncing", 0, 100, 0, 4, 200)
+                new Targyak("Egyszerű láncing", 0, 100, 0, 5, 200)
             };
 
             varosi_piac = new List<Targyak>

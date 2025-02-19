@@ -7,7 +7,7 @@ namespace VideoJatekSim
     {
         static void Main(string[] args)
         {
-            Jatekos Herny = new Jatekos() { Eletero = 100, Tamadas = 50, Penc = 10, Poz = 3, PozSzam = 1, Karizma = 0, Vege = false, Gyozott = false };
+            Jatekos Herny = new Jatekos() { Eletero = 100, Tamadas = 50, Penc = 10000, Poz = 3, PozSzam = 1, Karizma = 0, Vege = false, Gyozott = false };
             int markvratr_poz = 713;
             Iras iro = new Iras();
             Palya Telepules = new Palya();
